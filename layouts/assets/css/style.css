@@ -1,0 +1,147 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color:cyan;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:grey;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color:black;
+}
+
+nav a:hover {
+    background-color: #d8dadf;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color:cyan;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+table {
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table th {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    background-color:cyan;
+}
+
+table td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+.btn {
+    background-color:cyan;
+    border-radius: 4px;
+    color:black;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #1e7ff5;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color:cyan;
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+}
+
+form {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 16px;
+margin-top: 5px;
+}
+
+input:focus {
+outline: none;
+border-color: #4CAF50;
+}
+
+.btn_simpan {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.btn_simpan:hover {
+background-color: #45a049;
+}
